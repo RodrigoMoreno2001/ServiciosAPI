@@ -1,0 +1,66 @@
+#mainAnchorPane {
+    -fx-background-color: #d8f1f1 /* color de fondo */
+}
+
+#tablaView {
+    -fx-background-color: aceff7; /* Fondo para la tabla */
+    -fx-border-color: #202020; /* Bordes  */
+    -fx-border-radius: 5px; /* Bordes redondeados */
+    -fx-control-inner-background: #a6e5f0; /* Cambia el fondo de la tabla */
+}
+
+
+
+/* Fondo de las filas impares */
+.table-row-cell:odd {
+    -fx-background-color: #aceff7;
+}
+
+/* Fondo de las filas pares */
+.table-row-cell:even {
+    -fx-background-color: #7ce9f9;
+}
+
+#buscarButton {
+    -fx-background-color: #01c1f0;
+    -fx-text-fill: black;
+    -fx-padding: 5px 10px;  /* Espacio interno */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-border-radius: 5px; /* Bordes redondeados */
+}
+
+#buscarButton:hover {
+    -fx-background-color: #63dffd /* Color al hacer hover */
+}
+
+#buscarTextField {
+    -fx-border-color: #111111;
+    -fx-border-radius: 5px; /* Bordes redondeados */
+    -fx-padding: 5px; /* Espacio interno */
+}
+
+
+#columnaPuerto {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+
+}
+
+#columnaTitulo {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+
+}
+
+#columnaMotor {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+
+}
+
+#columnaServidor {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+
+}
+
+#columnaCodigo {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+
+}
